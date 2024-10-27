@@ -4,12 +4,13 @@ import { getAuth } from 'firebase/auth'
 import { getStorage } from 'firebase/storage'
 
 const firebaseConfig = {
-    apiKey: process.env.NEXT_PUBLIC_API_KEY,
-    authDomain: process.env.NEXT_PUBLIC_AUTH_DOMAIN,
-    projectId: process.env.NEXT_PUBLIC_PROJECT_ID,
-    storageBucket: process.env.NEXT_PUBLIC_STORAGE_BUCKET,
-    messagingSenderId: process.env.NEXT_PUBLIC_MESSANGING_ID,
-    appId: process.env.NEXT_PUBLIC_APP_ID,
+    apiKey: "AIzaSyDETp2zNV8ZOoRtSQBTNIWPSmpy_vPYZVs",
+    authDomain: "kitaro-38fd4.firebaseapp.com",
+    projectId: "kitaro-38fd4",
+    storageBucket: "kitaro-38fd4.appspot.com",
+    messagingSenderId: "720186277567",
+    appId: "1:720186277567:web:d65ee0151312cf1909500a",
+    measurementId: "G-BPLS4EZZ99"
 };
 
 const app = initializeApp(firebaseConfig);
