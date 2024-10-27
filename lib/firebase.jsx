@@ -5,7 +5,7 @@ import { getStorage } from 'firebase/storage'
 
 const firebaseConfig = {
     apiKey: "AIzaSyDETp2zNV8ZOoRtSQBTNIWPSmpy_vPYZVs",
-    authDomain: "blog-website-nextjs-iota.vercel.app",
+    authDomain: "kitaro-38fd4.firebaseapp.com",
     projectId: "kitaro-38fd4",
     storageBucket: "kitaro-38fd4.appspot.com",
     messagingSenderId: "720186277567",
